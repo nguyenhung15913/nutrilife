@@ -300,7 +300,7 @@ function Nav({ lang, setLang, t }) {
   return (
     <>
       <nav style={{position:"fixed",top:0,left:0,right:0,zIndex:100,background:"rgba(253,246,236,0.95)",backdropFilter:"blur(12px)",borderBottom:"1px solid var(--border)",padding:"0 5vw",display:"flex",alignItems:"center",justifyContent:"space-between",height:70}}>
-        <a href="/" style={{fontFamily:"'Playfair Display',serif",fontSize:"1.5rem",fontWeight:900,color:"var(--sage-dark)",textDecoration:"none",letterSpacing:"-0.5px"}}>Nutri<span style={{color:"var(--terracotta)"}}>Life</span></a>
+        <a href="https://expo.dev/accounts/nguyenhung15913/projects/pho-kitchen-app/builds/c8b4b729-daff-4f45-bfb1-720082dcd3b7" style={{fontFamily:"'Playfair Display',serif",fontSize:"1.5rem",fontWeight:900,color:"var(--sage-dark)",textDecoration:"none",letterSpacing:"-0.5px"}}>Nutri<span style={{color:"var(--terracotta)"}}>Life</span></a>
         {!isMobile && (
           <ul style={{display:"flex",gap:"2rem",listStyle:"none",alignItems:"center"}}>
             {links.map(([href,label]) => <li key={href}><a href={href} style={{textDecoration:"none",color:"var(--text-mid)",fontSize:"0.9rem",fontWeight:500}}>{label}</a></li>)}
